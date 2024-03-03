@@ -1,0 +1,151 @@
+@media screen and (max-width: 1150px) {
+    .skills-section{
+        width: 100%;
+    }
+  .about-section .p2{
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 1000px){
+   .about-section img{
+    width: 250px;
+    height: 250px;
+   }
+
+   .skills-section .round{
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 1fr 1fr;
+   }
+   .skill-round{
+    max-width: 700px;
+   }
+
+   .grid-list .project{
+    max-width: 450px;
+   }
+}
+
+@media screen and (max-width: 900px){
+    .nav-bar nav{
+     display: none;
+    }
+   
+
+    .nav-bar .menu-btn{
+        display: flex;
+        cursor: pointer;
+    }
+
+    .hero{
+        width: 100%;
+    }
+    .hero .head-p{
+        font-size: .9rem;
+    }
+    .hero .head-h1{
+        font-size: 2.2rem;
+    }
+    .hero .sec-head-p{
+        max-width: 100%;
+        padding: 0 50px;
+    }
+    
+    .about-section{
+        margin-bottom: -150px;
+    }
+    .about-section .flex-item{
+        flex-direction: column;
+    }
+    .about-section .p2{
+        font-size: .9rem;
+    }
+    .about-section img{
+        width: 420px;
+        height: 420px;
+        animation-play-state: paused;
+        transform: translate(-0%, -20%);
+    }
+
+
+    .project-section .grid-list{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .grid-list .project{
+        max-width: 100%;
+        height: 450px;
+    }
+    .project, content{
+        width: 100%;
+    }
+}
+
+
+/* mobile screen */
+
+@media screen and (max-width: 600px){
+    .nav-bar{
+        padding: 15px 20px;
+    }
+    .nav-bar .nav-text{
+        font-size: 1.7rem;
+    }
+    .nav-text span{
+        font-size: 1.7rem;
+    }
+
+    .hero{
+        margin-bottom: -10px;
+    }
+
+    .skills-section .skill-round{
+        max-width: 250px;
+        font-size: 1rem;
+    }
+    .skill-round .tech-stack{
+        font-size: 2.5rem;
+    }
+
+    .grid-list .project{
+        max-width: 100%;
+        height: 270px;
+    }
+
+
+    .nav-bar-respo span{
+        font-size: 1.5rem;
+    }
+    .nav-bar-respo .nav-text{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .hero main{
+        padding-top: 50px;
+    }
+    .hero .head-p{
+        font-size: .7rem;
+    }
+    .hero .head-h1{
+        font-size: 1.7rem;
+    }
+    .hero .sec-head-p{
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+
+    .grid-list .project{
+        max-width: 100%;
+        height: 230px;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .about-section img{
+        width: 370px;
+        height: 370px;
+    }
+}

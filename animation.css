@@ -1,0 +1,44 @@
+.image{
+    animation-name: move;
+    animation-duration: 5s;
+    animation-delay: 8s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    0%{
+        transform: scaleX(1.1);
+    }
+}
+
+/* dowm arrow */
+
+.down-arrow{
+    animation-name: arrow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes arrow {
+    0%{
+        transform: translateY(-20%);
+    }
+}
+
+/* nav bar */
+.nav{
+    animation-name: anime;
+    animation-duration: 1s;
+    animation-iteration-count:initial;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anime{
+  0%{
+    transform: translateY(-300%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
